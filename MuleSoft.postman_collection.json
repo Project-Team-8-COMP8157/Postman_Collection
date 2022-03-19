@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "0e3f5b90-f6d3-47bb-96ba-530a4f53929b",
+		"name": "MuleSoft",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MSFT SQL To Hadoop",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/msftsql2hadoop",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"msftsql2hadoop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hadoop To MSFT SQL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/hadoop2msftsql",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hadoop2msftsql"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
